@@ -1,0 +1,43 @@
+.navbar{
+    width: 100%;
+    height: 8vh;
+    background-color: tomato;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    border-bottom: 2px rgb(99, 28, 15) solid;
+}
+
+.store{
+    text-decoration: none;
+    color: black;
+    font-size: 3rem;
+}
+.store:hover{
+    font-weight: bold;
+    transition: 0.1s;
+}
+.cart{
+    color: rgb(26, 26, 26);
+    font-weight: bold;
+    scale: 1.2;
+}
+
+
+
+.cartContainer{
+    position: relative;
+}
+
+.quantity{
+    font-size: 0.8rem;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(104, 104, 104);
+    padding: 1.5px 6.5px;
+    border-radius: 50%;
+    position: absolute;
+    right: -6px;
+    top: 10px
+}

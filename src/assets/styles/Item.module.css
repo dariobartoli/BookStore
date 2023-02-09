@@ -1,0 +1,61 @@
+.image{
+    width: 80%;
+    max-width: 150px;
+}
+.image:hover{
+    transform: rotate(-5deg);
+    scale: 1.5;
+    z-index: 1;
+    transition: 2s;
+}
+
+.cardContainer{
+    border: 1px rgb(255, 147, 128) solid;
+    border-radius: 0.5rem;
+    width: 250px;
+    height: 400px;
+    background-image: linear-gradient(to right bottom, #ff6347, #ff785e, #ff8c75, #ff9f8c, #ffb1a3);
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: center;
+    box-shadow: 1px 10px 31px -8px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 1px 10px 31px -8px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 10px 31px -8px rgba(0,0,0,0.75);
+}
+
+.buttonContainer{
+    display: flex;
+    gap: 1.5rem;
+}
+
+.buttonAdd{
+    width: 100px;
+    padding: 0.5rem;
+    border: none;
+    background-color: rgb(255, 74, 42);
+    border-radius: 0.5rem;
+    color: rgb(224, 224, 224);
+}
+.buttonAdd:hover{
+    background-color: rgb(224, 224, 224);
+    border: 1px rgb(255, 74, 42) solid;
+    color: rgb(255, 74, 42);
+    transition: 0.5s;
+}
+
+.buttonMin{
+    color: rgb(226, 37, 37);
+    cursor: pointer;
+    scale: 1.5;
+}
+
+.buttonMax{
+    color: rgb(33, 194, 28);
+    cursor: pointer;
+    scale: 1.5;
+}
+
+.quantity{
+    font-weight: bold;
+}

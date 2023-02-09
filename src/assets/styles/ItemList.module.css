@@ -1,0 +1,7 @@
+.mainPage{
+    background-image: linear-gradient(to bottom, #ffe2dc, #ffe6e1, #ffebe6, #ffefeb, #fff3f0);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5rem;
+    padding: 5rem;
+}

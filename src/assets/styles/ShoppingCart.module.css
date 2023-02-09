@@ -1,0 +1,102 @@
+.mainShopping{
+    background-image: linear-gradient(to bottom, #ffe2dc, #ffe6e1, #ffebe6, #ffefeb, #fff3f0);
+    min-height: 92vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 1rem;
+}
+
+.table{
+    border-collapse: collapse;
+    border: 1px tomato solid;
+    width: 90%;
+    max-width: 700px;
+    margin-top: 2rem;
+}
+.trHead{
+    font-weight: bold;
+    font-size: 1.1rem;
+    background-color: rgb(255, 117, 92);
+}
+
+.trBody{
+    border-top: 1px black solid;
+    background-color: rgb(255, 172, 158)
+}
+
+.td{
+    padding: 0.8rem;
+    text-align: center;
+}
+
+.th{
+    padding: 0.8rem;
+    text-align: center;
+}
+
+.buttonMin{
+    color: rgb(226, 37, 37);
+    cursor: pointer;
+}
+
+.buttonMax{
+    color: rgb(33, 194, 28);
+    cursor: pointer;
+}
+
+.totalContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    font-size: 1.4rem;
+    margin-bottom: 2rem;
+}
+
+.text{
+    font-weight: bold;
+}
+.cartEmpty{
+    font-size: 1.8rem;
+    color: rgb(165, 15, 15);
+    font-weight: bold;
+}
+
+.tituloMedia{
+    background-color: rgb(255, 104, 84);
+    padding: 0.5rem;
+    border-bottom: 1px black solid;
+    font-size: 1.2rem;
+}
+
+
+@media screen and (max-width:720px){
+    .trHead{
+        display: none;
+    }
+    .trBody{
+        display: block;
+        margin-bottom: 0.5rem;
+        border-bottom: 1px rgb(255, 69, 36) solid;
+    }
+    .td{
+        display: block;
+        text-align: right;
+        border-bottom: 1px rgb(255, 125, 102) solid;
+    }
+    .td:before{
+        content: attr(data-label);
+        font-weight: bold;
+        float: left;
+    }
+    .tituloMedia{
+        display: block;
+    }
+    .table{
+        border: none;
+        margin-top: 1.5rem;
+        width: 90%;
+        max-width: 400px;
+    }
+}

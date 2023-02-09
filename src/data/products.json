@@ -1,0 +1,68 @@
+[
+    {
+        "id": 1,
+        "name": "Carrie",
+        "price": 45.69,
+        "image": "assets/images/carrie.png"
+    },
+    {
+        "id": 2,
+        "name": "End of watch",
+        "price": 62.15,
+        "image": "assets/images/endOfWatch.png"
+    },
+    {
+        "id": 3,
+        "name": "Fairy tale",
+        "price": 50,
+        "image": "assets/images/fairyTale.png"
+    },
+    {
+        "id": 4,
+        "name": "Finders keepers",
+        "price": 69.99,
+        "image": "assets/images/findersKeepers.png"
+    },
+    {
+        "id": 5,
+        "name": "Harry Potter: and the philosopher's stone",
+        "price": 43.40,
+        "image": "assets/images/hp1.png"
+    },
+    {
+        "id": 6,
+        "name": "Harry Potter: and the chambers of secrets",
+        "price": 44.35,
+        "image": "assets/images/hp2.png"
+    },
+    {
+        "id": 7,
+        "name": "Harry Potter: and the globet of fire",
+        "price": 54.56,
+        "image": "assets/images/hp4.png"
+    },
+    {
+        "id": 8,
+        "name": "Harry Potter: and the half-blood prince",
+        "price": 52.10,
+        "image": "assets/images/hp6.png"
+    },
+    {
+        "id": 9,
+        "name": "Harry Potter: and the curse child",
+        "price": 59.99,
+        "image": "assets/images/hp7.png"
+    },
+    {
+        "id": 10,
+        "name": "The institute",
+        "price": 42.30,
+        "image": "assets/images/institute.png"
+    },
+    {
+        "id": 11,
+        "name": "It",
+        "price": 65.50,
+        "image": "assets/images/it.png"
+    }
+]
